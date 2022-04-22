@@ -6,8 +6,7 @@
 
 /* debug */
 [class*="col-"], .col {
-    background-color: green;
-    border: solid 2px black;
+    border: solid 5px black;
     height: 100px;
 }
 
@@ -53,4 +52,19 @@ main #contact {
     text-align: center;
     /* debug */
     height: 300px;
+}
+
+/* footer */
+    /* info */
+footer #info{
+    width: 100%;
+    background-color: #3a546d;
+}
+
+    /* copyright */
+footer #copyright {
+    width: 100%;
+    background-color: #2c3e50;
+    /* debug */
+    height: 100px;
 }
