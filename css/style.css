@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug */
+[class*="col-"], .col {
+    background-color: green;
+    border: solid 2px black;
+    height: 100px;
+}
