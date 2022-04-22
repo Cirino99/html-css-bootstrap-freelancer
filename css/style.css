@@ -46,3 +46,11 @@ main #about {
     color: white;
     padding: 20px 0;
 }
+
+    /* contact */
+main #contact {
+    width: 100%;
+    text-align: center;
+    /* debug */
+    height: 300px;
+}
