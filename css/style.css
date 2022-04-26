@@ -17,8 +17,15 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    /* height: 80px; */
 }
     /* modify navbar BS5 */
+header .container-md {
+    height: 100%;
+}
+header .navbar {
+    height: 100%;
+}  
 header .navbar .navbar-brand {
     color: white;
 }
@@ -36,6 +43,9 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
 }
 
 /* main */
+main {
+    width: 100%;
+}
 main .star {
     display: flex;
     justify-content: center;
@@ -167,12 +177,31 @@ main #contact .btn-success {
 footer #info{
     width: 100%;
     background-color: #3a546d;
+    color: white;
+    padding: 50px 0;
+}
+footer #info .container-md .row {
+    --bs-gutter-y: 1.5rem;
+}
+footer #info .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border: solid 1px white;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin: 0 7px;
 }
 
     /* copyright */
 footer #copyright {
     width: 100%;
     background-color: #2c3e50;
-    /* debug */
-    height: 100px;
+    padding: 50px 0;
+    color: white;
 }
