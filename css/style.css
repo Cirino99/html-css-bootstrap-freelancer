@@ -58,7 +58,7 @@ main #jumbotron .line {
     border-radius: 4px;
     background-color: white;
 }
-main #jumbotron .star {
+main .star {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,12 +71,30 @@ main #jumbotron h3 {
 }
 
     /* portfolio */
-main #porfolio {
+main #portfolio {
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding-bottom: 80px;
 }
-
+main #portfolio h2 {
+    margin-top: 60px;
+    font-weight: 550;
+    font-size: 40px;
+}
+main #portfolio .line {
+    max-width: 150px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: black;
+}
+main #portfolio .container-md .row {
+    --bs-gutter-y: 1.5rem;
+}
+main #portfolio img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
     /* about */
 main #about {
     width: 100%;
