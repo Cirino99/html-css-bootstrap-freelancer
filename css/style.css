@@ -167,6 +167,9 @@ main #contact .btn-success {
 
 
 /* footer */
+footer {
+    width: 100%;
+}
     /* info */
 footer #info{
     width: 100%;
