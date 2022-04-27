@@ -6,9 +6,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-[class*="container-"], .container {
-    text-align: left;
-}
 
 /* header */
 header {
@@ -65,7 +62,6 @@ main #jumbotron {
     background-color: #1abc9c;
     width: 100%;
     padding-top: 100px;
-    text-align: center;
     color: white;
     padding-bottom: 50px;
 }
@@ -86,7 +82,6 @@ main #jumbotron h3 {
     /* portfolio */
 main #portfolio {
     width: 100%;
-    text-align: center;
     padding-bottom: 80px;
 }
 main #portfolio h2 {
@@ -105,7 +100,6 @@ main #portfolio img {
     /* about */
 main #about {
     width: 100%;
-    text-align: center;
     background-color: #1abc9c;
     color: white;
     padding: 20px 0;
@@ -140,7 +134,6 @@ main #about .button i {
     /* contact */
 main #contact {
     width: 100%;
-    text-align: center;
     padding: 40px 0;
 }
 main #contact h2 {
